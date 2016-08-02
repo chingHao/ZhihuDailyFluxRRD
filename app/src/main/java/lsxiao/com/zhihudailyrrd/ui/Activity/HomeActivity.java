@@ -27,6 +27,10 @@ public class HomeActivity extends BaseActivity {
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.fl_container, fragment, NewsListFragment.TAG);
         ft.commit();
+        init();
+    }
+
+    private void init() {
     }
 
     @Override
